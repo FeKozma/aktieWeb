@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>aktier</id>
+    <name>Aktier</name>
+    <summary>aktievärktyg</summary>
+    <description><![CDATA[aktievärktyg test]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="felix.kozma2@gmail.com" >Felix Kozma</author>
+    <namespace>Aktier</namespace>
+    <category>tools</category>
+    <bugs>https://www.alaktie.se</bugs>
+    <dependencies>
+        <nextcloud min-version="14" max-version="14"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Aktier</name>
+            <route>aktier.page.index</route>
+        </navigation>
+    </navigations>
+</info>
